@@ -7,8 +7,8 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.openecomp.vvp</groupId>
-  <artifactId>vvp-postgresql</artifactId>
+  <groupId>org.openecomp.vvp.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
   <packaging>pom</packaging>
   <version>1.0.0-SNAPSHOT</version>
   <name>vvp-postgresql</name>
