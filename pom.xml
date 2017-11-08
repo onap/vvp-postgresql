@@ -47,7 +47,7 @@
                 <registry>nexus3.onap.org:10003</registry>
                 <images>
                     <image>
-                        <name>openecomp/vvp-postgresql</name>
+                        <name>openecomp/vvp/postgresql</name>
                         <alias>vvp-postgresql</alias>
                         <build>
                             <cleanup>true</cleanup>
@@ -84,11 +84,10 @@
                     <id>push-images</id>
                     <phase>deploy</phase>
                     <goals>
-                        <goal>build</goal>
                         <goal>push</goal>
                     </goals>
                     <configuration>
-                        <image>openecomp/vvp-postgresql</image>
+                        <image>openecomp/vvp/postgresql</image>
                     </configuration>
                 </execution>
             </executions>
